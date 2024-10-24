@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valid form</title>
+	</head>
+	<body>
+		<form name="frmAccount" action="abc.jsp">
+			fullname:
+			<input type="text" name="fullname"/><br>
+			age:
+			<input type="text" name="age"/><br>
+			gender:
+			<input type="radio" name="gender"/> Male
+			<input type="radio" name="gender"/> Female <br>
+			phone:
+			<input type="text" name="phone"/><br>
+			
+			<input type="button" value="Submit" onclick="validform(document.forms.frmAccount);">
+
+		</form>
+		<script src="ValidScript.js"></script>
+	</body>
+	</html>

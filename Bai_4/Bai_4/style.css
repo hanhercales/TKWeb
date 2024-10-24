@@ -1,0 +1,18 @@
+body{
+    font-size: 18px;
+}
+
+form{
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    margin-left: 20%;
+    border: 1px solid black;
+    border-radius: 24px;
+    background-color: silver;
+}
+
+label{
+    margin: 10%;
+}
