@@ -3,16 +3,13 @@ body{
 }
 
 form{
-    line-height: 32px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 32px;
-    margin-left: 20%;
-    border: 1px solid black;
-    border-radius: 24px;
-    background-color: silver;
+    display: grid;
+    justify-content: center;
+    justify-items: end;
+    margin: 0;
 }
 
-label{
-    margin: 10%;
+form p{
+    margin-block-start: 5px;
+    margin-block-end: 5px;
 }
